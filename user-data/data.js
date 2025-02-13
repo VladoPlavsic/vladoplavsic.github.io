@@ -104,6 +104,6 @@ export const footer = [
   },
   {
     label: "copyright-text",
-    data: [{ text: "Template taken from Vinay Somawat", link: "https://github.com/vinaysomawat/vinaysomawat.github.io" }],
+    data: ["Template taken from Vinay Somawat"],
   },
 ];
