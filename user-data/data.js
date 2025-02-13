@@ -1,89 +1,80 @@
 export const bio = [
-  "Hello, I'm Vinay Somawat!",
-  "<strong>Frontend Software Engineer</strong> with 4+ years of experience building scalable, user-focused web applications.",
-  "Skilled in Angular, TypeScript, and performance optimization, I aim to leverage my expertise in delivering innovative solutions that drive measurable business outcomes.",
-  "Passionate about mentoring, teamwork, and continuous improvement in engineering processes.",
+  "Hello, I'm Vlado Plavsic!",
+  "<strong>Backend Software Engineer</strong> with 4+ years of experience building scalable, user-focused web applications.",
+  "Skilled in Elixir, OTP and performance optimization, I aim to leverage my expertise in delivering innovative solutions that drive measurable business outcomes.",
+  "Passionate about diving deep into tech investigation, teamwork, and continuous improvement in engineering processes.",
 ];
 
 export const skills = [
-  "JavaScript, TypeScript, Angular, AngularJS, React, HTML5, CSS, Bootstrap",
-  "RxJS, NGXS, NGRX",
-  "Jenkins, JIRA, Webpack, Git",
+  "Elixir, Erlang, Python, JavaScript",
+  "GraphQL, REST, gRPC, RabbitMQ, WebSockets, OCPP protocol",
+  "Docker, JIRA, Linux, Git, OTP",
 ];
 
 export const experience = [
   {
-    title: "Shiprocket Private Limited",
-    duration: "September 2023 - Present",
-    subtitle: "Software Engineer",
+    title: "Wellnuts",
+    duration: "August 2022 - Present",
+    subtitle: "Backend Software Engineer",
     details: [
-      "Developed a design system using Stencil and Storybook that provides consistent UI components across platforms, ensuring a cohesive design.",
-      "Developed a dynamic support ticket panel that renders subcategories based on component IDs, handling up to 100 AWBs simultaneously.",
-      "Migrated 30+ modules from AngularJS to Angular 15 using Generative AI tools, reporting directly to the VP of Engineering.",
-      "Designed and implemented advanced features such as keyboard shortcuts, improving operational efficiency by 15 percent.",
-      "Took ownership of OKRs, collaborated with the product team, and mentored two junior developers, cutting their code review iterations and ensuring on-time feature delivery.",
+      "Optimized ETL pipeline: Reduced processing time from 15+ minutes for 300k rows to ~3 minutes for 1.5M rows, significantly improving performance and efficiency.",
+      "End-to-end feature development: Led the full lifecycle of feature requests—engaging with clients to gather requirements, breaking down features into tasks, estimating timelines, delegating work, and implementing core functionality while ensuring quality and accountability.",
+      "Emergency response & production support: Acted as a key point of contact during critical incidents, quickly diagnosing issues and delivering hotfixes to restore system stability.",
+      "Customized third-party libraries: Extended, fixed, and enhanced forks of external libraries to meet specific business needs. Notably, patched the Elixir gRPC library to develop a custom HTTP/2 pooling solution, enabling multi-channel communication. This optimization significantly reduced latency and per-process load, improving system stability and scalability while handling thousands of requests per second.",
+      "Scalability & maintainability: Worked on a large, complex codebase, prioritizing clean, modular, and reusable code for long-term maintainability. Ensured comprehensive test coverage to maintain system reliability.",
+      "I was part of the core team building complex feature around OTP protocol."
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "AngularJs"],
+    tags: ["Elixir", "Erlang", "OTP", "GraphQL", "RabbitMQ", "gRPC", "PostgreSQL", "Redshift", "Cassandra", "Redis"],
     icon: "truck ",
   },
   {
-    title: "Biofourmis India Private Limited",
-    duration: "April 2022 - Jul 2023",
+    title: "Deledger",
+    duration: "August 2021 - October 2022",
     subtitle: "Software Engineer",
     details: [
-      "Spearheaded the implementation of micro-frontends using Module Federation, enabling modular and scalable architecture.",
-      "Earned the Biofourmis Bravo Award for upgrading the application to support flexible operations across multiple geographies.",
-      "Enhanced performance and user experience by integrating Twilio-Video, Countly, and NGXS WebSocket for real-time data management.",
+      "Developed the backend for an application that allows users to create, share, import, and sign electronic CMR (e-CMR) documents, replacing traditional paper-based workflows for transport companies.",
+      "Integrated with external APIs: Implemented SBIS integration for qualified e-signatures, handling a complex third-party API to ensure compliance with legal requirements.",
+      "Startup impact: Despite joining with limited experience in Elixir and REST APIs, quickly ramped up, delivering the MVP, which successfully attracted investors.",
+      "Full-stack contributions: Assisted the frontend team with React & JavaScript, including extending and fixing certificate management plugins (e.g., crypto-pro).",
     ],
-    tags: [
-      "JavaScript",
-      "Angular",
-      "RxJS",
-      "NGXS",
-      "TypeScript",
-      "RxState",
-      "Webpack",
-      "Optimization",
-    ],
+    tags: ["Elixir", "Erlang", "Phoenix", "Linux", "ReactJS"],
     icon: "heartbeat",
   },
   {
-    title: "Novopay Solutions Private Limited",
+    title: "Internship",
     duration: "June 2020 - April 2022",
     subtitle: "Software Engineer",
     details: [
-      "Built critical banking features including AePS services (eKYC, cash withdrawal, balance inquiry) used by over 1,00,000 retailers.",
-      "Developed QR code integration for wallet money loading, streamlining retailer workflows and reducing errors by 25 percent.",
-      "Integrated Clevertap analytics, Freshdesk ticketing, and chatbot services, enhancing user support and engagement.",
+      "Developed the backend for a web application providing study materials (courses) for junior and high school students, working alongside a frontend developer.",
+      "Content management system: Enabled full CRUD operations for all content elements—titles, images, videos, and more—giving admins complete control over the platform’s content.",
+      "Scalable media storage: Managed large assets (videos, books, images, games) via AWS S3, using pre-signed URLs for secure and efficient access.",
+      "Microservice integration: Later expanded the platform by integrating a dictionary service as a separate microservice.",
+      "Project recognition: The platform won a grant from the Ministry of Science and Higher Education, leading to a transition to a fully free educational service, requiring removal of the payment system and a UI redesign."
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["Python", "PostgreSQL", "Yandex Cloud", "AWS s3", "YooMoney"],
     icon: "qrcode",
   },
-  {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
-    details: [
-      `Designed and developed a social media post management panel, improving collaboration efficiency by 50 percent.`,
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
-  },
-];
-
-export const trekking = [
-  "<strong>Kheerganga Trek</strong>, Himachal Pradesh (9,711 feet)",
-  "<strong>Triund Trek</strong>, Himachal Pradesh (9,350 feet)",
-  "<strong>Kedarkantha Trek</strong>, Uttarakhand (12,500 feet)",
-  "<strong>Jalori Pass Trek</strong>, Himachal Pradesh (10,800 feet)",
-  "<strong>Vaishno Devi Trek</strong>, Jammu & Kashmir (5,200 feet)",
 ];
 
 export const education = [
   {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 - 2020",
-    subtitle: "National Institute of Technology, Warangal",
+    title: "Master's degree in Computer Science and Engineering",
+    duration: "2023 - 2025",
+    subtitle: "Moscow Power Engineering Institute, Moscow",
+    details: [],
+    tags: [
+      "Cryptography and qualified e-signatures",
+      "Blockchain",
+      "Mobile Development",
+      "Computer Networks",
+      "Distributed Computing",
+    ],
+    icon: "graduation-cap",
+  },
+  {
+    title: "Bachelor's degree in Computer Science and Engineering",
+    duration: "2018 - 2022",
+    subtitle: "Moscow Power Engineering Institute, Moscow",
     details: [],
     tags: [
       "Data Structures & Algorithms",
@@ -93,76 +84,26 @@ export const education = [
       "Compiler Designing",
       "Cloud Computing",
     ],
-    icon: "graduation-cap",
-  },
-  {
-    title: "Class 12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
-    details: [],
-    tags: ["Physics", "Chemistry", "Mathematics"],
     icon: "book",
   },
 ];
 
 export const footer = [
-  //   {
-  //     label: "Dev Profiles",
-  //     data: [
-  //       {
-  //         text: "Stackoverflow",
-  //         link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-  //       },
-  //       {
-  //         text: "GitHub",
-  //         link: "https://github.com/vinaysomawat",
-  //       },
-  //       {
-  //         text: "LeetCode",
-  //         link: "https://leetcode.com/somawatvinay/",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     label: "Resources",
-  //     data: [
-  //       {
-  //         text: "Enable Dark/Light Mode",
-  //         func: "enableDarkMode()",
-  //       },
-  //       {
-  //         text: "Print this page",
-  //         func: "window.print()",
-  //       },
-  //       {
-  //         text: "Clone this page",
-  //         link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-  //       },
-  //     ],
-  //   },
   {
     label: "Links",
     data: [
-      //   {
-      //     text: "Linkedin",
-      //     link: "https://www.linkedin.com/in/vinaysomawat/",
-      //   },
-      //   {
-      //     text: "Twitter",
-      //     link: "https://twitter.com/thesigmakid",
-      //   },
       {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
+        text: "Linkedin",
+        link: "https://www.linkedin.com/in/vlado-plavsic-197b98202/",
       },
       {
         text: "Github",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+        link: "https://github.com/vladoplavsic/",
       },
     ],
   },
   {
     label: "copyright-text",
-    data: ["Made with &hearts; by Vinay Somawat"],
+    data: [{ text: "Template taken from Vinay Somawat", link: "https://github.com/vinaysomawat/vinaysomawat.github.io" }],
   },
 ];
