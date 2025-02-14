@@ -99,9 +99,9 @@ function populateSkills(items, id) {
 
 function populateBlogs(items, id) {
   const projectdesign = document.getElementById(id);
-  const count = 3; // Number of blogs to display
+  const count = items => (items.length < 3) ? items.length : 3; // Number of blogs to display
 
-  for (let i = 0; i < count; i++) {
+  for (let i = 0; i < count(items); i++) {
     // Create a wrapper for the blog card
     const blogCard = document.createElement("div");
     blogCard.className = "blog-card";
