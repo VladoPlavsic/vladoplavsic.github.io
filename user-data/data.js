@@ -25,7 +25,7 @@ export const experience = [
       "I was part of the core team building complex feature around OTP protocol."
     ],
     tags: ["Elixir", "Erlang", "OTP", "GraphQL", "RabbitMQ", "gRPC", "PostgreSQL", "Redshift", "Cassandra", "Redis"],
-    icon: "truck ",
+    icon: "plug",
   },
   {
     title: "Deledger",
@@ -38,7 +38,7 @@ export const experience = [
       "Full-stack contributions: Assisted the frontend team with React & JavaScript, including extending and fixing certificate management plugins (e.g., crypto-pro).",
     ],
     tags: ["Elixir", "Erlang", "Phoenix", "Linux", "ReactJS"],
-    icon: "heartbeat",
+    icon: "truck",
   },
   {
     title: "Internship",
@@ -52,7 +52,7 @@ export const experience = [
       "Project recognition: The platform won a grant from the Ministry of Science and Higher Education, leading to a transition to a fully free educational service, requiring removal of the payment system and a UI redesign."
     ],
     tags: ["Python", "PostgreSQL", "Yandex Cloud", "AWS s3", "YooMoney"],
-    icon: "qrcode",
+    icon: "archive",
   },
 ];
 
