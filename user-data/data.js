@@ -63,7 +63,8 @@ export const education = [
     subtitle: "Moscow Power Engineering Institute, Moscow",
     details: [],
     tags: [
-      "Cryptography and qualified e-signatures",
+      "Cryptography",
+      "Qualified e-signatures",
       "Blockchain",
       "Mobile Development",
       "Computer Networks",
